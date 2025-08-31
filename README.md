@@ -12,14 +12,27 @@
     - Appearance > JetBrainsMono Nerd Font
     - Appearance > Font Size 12
     - Appearance > Font Weight Thin
+- Install .NET project into windows terminal.
+- Install .NET dependency called __dotnet-script__.
+
+```shell
+
+dotnet tool install -g dotnet-script
+
+```
 
 ## Console Projects
 
-- Run the main.go file into your desired repository:
+- Run the `create.csx` file to generate locally the Solution,Project and Test Project.
+- This is going to create the Console Project with an Hello World Example.
 
-```bash
-go run main.go
+```csharp
+
+dotnet script create.csx
+
 ```
+
+
 
 ## ASP.NET Core Projects
 
