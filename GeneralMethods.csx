@@ -1,4 +1,8 @@
+#r "System.Console"
+#r "System.Diagnostics.Process"
+
 using System;
+using System.Diagnostics;
 
 void PrintBox(string text1, params string[] text2)
 {

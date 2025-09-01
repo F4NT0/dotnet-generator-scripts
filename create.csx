@@ -3,6 +3,7 @@
 #load "GenerateTemplateCode.csx"
 #load "DotnetBasicCommands.csx"
 #load "GeneralMethods.csx"
+#r "System.Console"
 
 using System;
 

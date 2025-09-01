@@ -1,4 +1,5 @@
 #load "GeneralMethods.csx"
+#r "System.Console"
 
 using System;
 

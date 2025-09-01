@@ -1,3 +1,5 @@
+#r "System.Console"
+
 using System;
 
 void HelloIntro()
